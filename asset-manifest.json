@@ -1,7 +1,9 @@
 {
   "files": {
-    "static/js/1.chunk.js": "/wp-content/themes/barebones/static/js/1.chunk.js",
-    "static/js/1.chunk.js.map": "/wp-content/themes/barebones/static/js/1.chunk.js.map",
+    "static/css/0.chunk.css": "/wp-content/themes/barebones/static/css/0.chunk.css",
+    "static/js/0.chunk.js": "/wp-content/themes/barebones/static/js/0.chunk.js",
+    "static/css/0.chunk.css.map": "/wp-content/themes/barebones/static/css/0.chunk.css.map",
+    "static/js/0.chunk.js.map": "/wp-content/themes/barebones/static/js/0.chunk.js.map",
     "main.css": "/wp-content/themes/barebones/static/css/main.chunk.css",
     "main.js": "/wp-content/themes/barebones/static/js/main.chunk.js",
     "main.css.map": "/wp-content/themes/barebones/static/css/main.chunk.css.map",
@@ -9,11 +11,21 @@
     "runtime-main.js": "/wp-content/themes/barebones/static/js/bundle.js",
     "runtime-main.js.map": "/wp-content/themes/barebones/static/js/bundle.js.map",
     "index.php": "/wp-content/themes/barebones/index.php",
-    "static/media/logo.svg": "/wp-content/themes/barebones/static/media/logo.5d5d9eef.svg"
+    "static/media/App.css": "/wp-content/themes/barebones/static/media/background2.3c09a2c7.png",
+    "static/media/cakeCat.png": "/wp-content/themes/barebones/static/media/cakeCat.fe644006.png",
+    "static/media/capCat.png": "/wp-content/themes/barebones/static/media/capCat.d1973a02.png",
+    "static/media/cupCat.png": "/wp-content/themes/barebones/static/media/cupCat.42eabe6d.png",
+    "static/media/keyCat.png": "/wp-content/themes/barebones/static/media/keyCat.68c19a5b.png",
+    "static/media/logoPic.png": "/wp-content/themes/barebones/static/media/logoPic.e6d8acdf.png",
+    "static/media/logowhite.png": "/wp-content/themes/barebones/static/media/logowhite.4202b970.png",
+    "static/media/map.png": "/wp-content/themes/barebones/static/media/map.c47088e7.png",
+    "static/media/opiumLogo3.png": "/wp-content/themes/barebones/static/media/opiumLogo3.b8be2f25.png",
+    "static/media/shirtCat.png": "/wp-content/themes/barebones/static/media/shirtCat.9a4b6c7a.png"
   },
   "entrypoints": [
     "static/js/bundle.js",
-    "static/js/1.chunk.js",
+    "static/css/0.chunk.css",
+    "static/js/0.chunk.js",
     "static/css/main.chunk.css",
     "static/js/main.chunk.js"
   ]

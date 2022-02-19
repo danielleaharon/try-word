@@ -1,0 +1,78 @@
+#Dialog-pop-product{
+    direction: rtl;
+    font-family: 'Varela Round', sans-serif;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+#popProduct-dialog-design-title p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  
+}
+#popProduct-dialog-design-title{
+    margin-top: 20px;
+    height: fit-content;
+    background-color: transparent;
+}
+.popProduct-dialog-design-img{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    opacity: 0.7;
+    max-width: 100%;
+}
+#popProduct-dialog-design-description{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(53, 52, 52);
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 50px;
+    z-index: 10px;
+}
+#popProduct-dailog-context{
+    background-color: white;
+    height: 100%;
+    /* margin-top: 50px; */
+}
+
+
+@media only screen and (min-width: 800px) {
+    .popProduct-dialog-design-img{
+ 
+        width: 9%;
+     
+    }
+    #Dialog-buttons-popProduct{
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    
+    
+    }
+    #dialog-btn-design-popProduct{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .popProduct-dialog-design-img{
+
+        width: 20%;
+     
+    }
+    #Dialog-buttons-popProduct{
+        position: absolute;
+        top: 0px;
+        right: 5px;
+    
+    
+    }
+    #dialog-btn-design-popProduct{
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

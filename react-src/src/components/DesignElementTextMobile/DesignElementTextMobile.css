@@ -1,0 +1,280 @@
+.Design3{
+
+    font-family: 'Varela Round', sans-serif;
+    /* justify-content: center; */
+    /* align-items: center;
+    text-align: center; */
+   
+    width:100%;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+    /* justify-items: center; */
+
+    /* display: flex; */
+    /* background-color: rgba(245, 245, 245, 0.856); */
+
+    
+}
+.rnd-resize-up{
+  /* background-color: black; */
+  border-top: 1px dashed rgb(112, 111, 111) !important;
+  width: 5px;
+  height: 5px;
+}
+.rnd-resize-bottom{
+  /* background-color: black; */
+  border-bottom: 1px dashed rgb(112, 111, 111) !important;
+  width: 5px;
+  height: 5px;
+}
+.rnd-resize-left{
+  /* background-color: black; */
+  border-left: 1px dashed rgb(112, 111, 111) !important;
+  width: 5px;
+  height: 5px;
+}
+.rnd-resize-right{
+  /* background-color: black; */
+  border-right: 1px dashed rgb(112, 111, 111) !important;
+  width: 5px;
+  height: 5px;
+}
+.rnd-resize-btn{
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 100% !important;
+background-color: whitesmoke !important;
+  /* background-color: violet; */
+  border: 2px rgb(112, 111, 111) solid !important;
+  /* background-color: transparent; */
+}
+#back-button{
+  font-size: 22px;
+  /* background-image: url('../../Image/logoPic.png'); */
+  background-color: whitesmoke;
+  align-items: center;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 45px;
+  height: 45px;
+  /* border-radius: 100px; */
+  text-shadow: rgba(11, 10, 10, 0.493) 1px 1px 3px;
+}
+
+
+
+
+
+
+#container {
+  display: inline-block;
+  cursor: nwse-resize;
+}
+.Design-cube{
+  /* justify-content: center; */
+  width: 100%;
+  /* text-align: center; */
+  direction: rtl;
+  display: flex;
+  
+}
+.resizable-handler{
+  content: url('https://api.iconify.design/akar-icons/circle-fill.svg?color=white');
+      /* border: 1px solid #cec8c8; */
+  background-color: rgb(85, 85, 85);
+  padding: 2px;
+  border-radius: 10px;
+
+}
+.div2 div{
+  border-style: none;
+  /* background-color: aqua; */
+  /* border-color: black; */
+}
+ div .rect{
+  border-style: dashed;
+  border: 1.5px gray dashed;
+  /* background-color: aqua; */
+  /* border-color: black; */
+
+}
+
+.t,.b,.r,.l,.tl{
+  /* border: 1px solid #000000; */
+ display: none;
+}
+.rotate svg{
+  display: none;
+  visibility: hidden;
+}
+.rotate{
+  content: url('https://api.iconify.design/feather/rotate-cw.svg?color=%23555&width=20');    /* border: 1px solid #000000; */
+border: none;
+border-style: none;
+}
+
+#txt-element-delete{
+  z-index:'10';
+  background-color:'white';
+  border:'none';
+}
+
+
+.paint{
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+/* .TextToolbar{
+  background-color:whitesmoke;
+  display: flex;
+  width: 900px;
+  padding-top: 5px;
+  padding-right: 8px;
+  z-index: 10;
+  position: absolute;
+  border-top: black 4px solid;
+  margin-right: -220px;
+  border-bottom-left-radius: 5px;
+
+
+  
+
+} */
+
+
+ 
+.Design h3{
+  
+    direction: rtl;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+
+
+
+
+}
+.textcenter{
+  /* position: absolute; */
+  font-size: 4em;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; 
+}
+.Design3 .MuiOutlinedInput-root fieldset{
+  border-color: transparent !important;
+  /* font-size: 60px !important; */
+  width:100%;
+  width: fit-content !important;
+  padding: 0 !important;
+
+
+}
+.textcenter-input{
+  border: none;
+
+  background-color: transparent !important;
+  border-color: transparent !important;
+  padding: 0px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; 
+
+
+}
+[id^="textcenter-input"]{
+  width: 100% !important;
+  max-width: 100%;
+  text-align: center !important;
+  font-size: var(--size) !important;
+  font-family: var(--family) !important;
+}
+
+.textcenter-input:active{
+  border: none;
+  outline: none;
+
+}
+
+input:focus{
+  border: none;
+  outline: none;
+
+}
+.rnd{
+  position: absolute;
+  top: 0;
+}
+.textcenter:focus{
+border: hidden;
+color: black;
+}
+.shirt{
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+
+}
+p:focus{
+  outline: 0;
+  /* border: none; */
+
+}
+.elementtext-view{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: rgba(100, 166, 194, 0.55);
+  border-radius:4px ;
+  margin: 5px;
+  position: relative;
+
+
+}
+#elementtext-view-icon{
+  font-size: 25px;
+  margin: 0px 10px;
+  position: absolute;
+  top: 12px;
+  right: 5px;
+}
+.elementtext-view-txt{
+  font-size: 16px;
+
+}
+#elementtext-view-eye-true{
+  color: gray;
+  font-size: 20px;
+  margin: 0px 10px;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  border: none;
+  background-color: transparent;
+}
+#elementtext-view-eye-false{
+  color: black;
+  font-size: 20px;
+  margin: 0px 10px;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  border: none;
+  background-color: transparent;
+}
+
